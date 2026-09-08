@@ -1,0 +1,66 @@
+Python Operators
+Operators are symbols used to perform operations on values and variables.
+
+1) Arithmetic Operators - Used for mathematical calculations.
+
++ → Addition
+- → Subtraction
+* → Multiplication
+/ → Division
+% → Modulus (remainder)
+// → Floor Division
+** → Exponentiation (power)
+
+2) Comparison Operators - Used to compare two values. Result is always Boolean (True/False).
+
+< → Less than
+> → Greater than
+<= → Less than or equal to
+>= → Greater than or equal to
+== → Equal to
+!= → Not equal to
+
+3) Assignment Operators - Used to assign/update values.
+
+= → Assignment
++= → Add and assign
+-= → Subtract and assign
+*= → Multiply and assign
+/= → Divide and assign
+//= → Floor divide and assign
+%= → Modulus and assign
+**= → Power and assign
+
+4) Logical Operators - Used to combine conditions.
+
+and → All conditions must be True
+or → At least one condition must be True
+not → Reverses the Boolean result
+True → False, False → True
+
+5) Membership Operators - Used to check whether a value is present or not present in a sequence.
+
+in → Present
+not in → Not present
+Example:
+10 in [10, 20, 30]       # True
+40 not in [10, 20, 30]   # True
+
+6) Identity Operators - Used to check whether two variables refer to the same object in memory.
+
+is → Same object
+is not → Different objects
+l = [1, 2, 3]
+m = [1, 2, 3]
+l == m   # True → Same values
+l is m   # False → Different objects
+
+7) Bitwise Operators - Used to perform operations on binary bits.
+
+& → Bitwise AND
+| → Bitwise OR
+^ → Bitwise XOR
+~ → Bitwise NOT
+<< → Left Shift
+>> → Right Shift
+
