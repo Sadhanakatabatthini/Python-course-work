@@ -1,0 +1,54 @@
+Python Strings 
+1. String - A string is a sequence of characters enclosed in single ' ' or double " " quotes.
+Example: s = "codegnan"
+Empty string: s = ''
+Strings are immutable.
+
+2. String Operations
+- Concatenation (+) – joins strings.
+- Repetition (*) – repeats a string.
+- Indexing – accesses individual characters.
+- Slicing – extracts a part of a string.
+n = 'kalyani usha sadhana'
+n[:7]         # 'kalyani'
+n[8:12]       # 'usha'
+n[::-1]       # reverse string
+- Membership – checks whether a substring exists.
+
+3. Important Built-in Functions
+len(s) → returns number of characters
+ord('a') → returns Unicode/ASCII value → 97
+chr(100) → returns character → 'd'
+sorted(s) → returns characters in sorted order
+min(s) → smallest character
+max(s) → largest character
+
+ord() accepts only one character.
+chr() requires an integer, not a string.
+
+4. Important String Methods
+upper() → converts to uppercase
+lower() → converts to lowercase
+capitalize() → first character uppercase
+title() → first character of every word uppercase
+swapcase() → changes uppercase ↔ lowercase
+center(width, char) → centers the string
+ljust() → left-aligns
+rjust() → right-aligns
+zfill() → fills with zeros on the left
+find() → returns first position; returns -1 if not found
+rfind() → searches from the right
+index() → returns position; raises ValueError if not found
+rindex() → searches from the right
+count() → counts occurrences
+replace() → replaces part of a string
+maketrans() + translate() → replaces characters using a translation table
+
+5. Encoding & Decoding
+Encoding: String → Bytes
+'hello'.encode()
+# b'hello'
+
+Decoding: Bytes → String
+b'hello'.decode()
+# 'hello'
