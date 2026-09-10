@@ -1,0 +1,32 @@
+---Object-Oriented Programming (OOP) - depends on user
+The program is organized around objects and classes.
+Focuses on modeling real-world entities.
+1.Class - Blue print that consists for attributes and methods
+2.Object - Instance of class
+Supports the four OOP principles:
+Encapsulation - Encapsulation is the process of wrapping data (variables) and methods (functions) into a single unit (class) and restricting direct access to the data.
+Inheritance - Inheritance allows one class (child class) to inherit the properties and methods of another class (parent class).
+Types - 1.Single Inheritance
+        2.Multiple Inheritance
+        3.Multlevel Inheritance
+        4.Hierarchical Inheritance
+        5.Hybrid Inheritance
+Polymorphism - Polymorphism means "many forms." The same method or function can behave differently for different objects.
+Abstraction - Abstraction means hiding implementation details and showing only the essential features to the user.
+
+Attributes
+- Attributes are the data or properties associated with an object or class.
+Types
+    1.Instance Attributes - Data that belongs to a specific object and can have different values for each object.
+    2.Class Attributes - Data that belongs to the class and is shared by all objects.
+
+Method 
+- A method is a function defined inside a class that performs a specific action for an object or class.
+Types
+    1.Class Method - A method that works with class data and uses cls
+    2.Instance Method - A method that works with object data and uses self.
+    3.Static Method - A helper method that performs a specific task without using object (self) or class (cls) data.
+
+self - Refers to the current object. It is used in instance methods.
+cls - Refers to the current class. It is used in class methods.
+
